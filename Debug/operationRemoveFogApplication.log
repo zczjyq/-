@@ -1,0 +1,10 @@
+﻿  operationRemoveFogApplication.cpp
+operationRemoveFogApplication.obj : error LNK2019: 无法解析的外部符号 "public: __thiscall cv::Mat::Mat(void)" (??0Mat@cv@@QAE@XZ)，函数 "public: __thiscall cv::MatExpr::operator class cv::Mat(void)const " (??BMatExpr@cv@@QBE?AVMat@1@XZ) 中引用了该符号
+operationRemoveFogApplication.obj : error LNK2019: 无法解析的外部符号 "public: __thiscall cv::Mat::~Mat(void)" (??1Mat@cv@@QAE@XZ)，函数 "public: __thiscall cv::MatExpr::~MatExpr(void)" (??1MatExpr@cv@@QAE@XZ) 中引用了该符号
+operationRemoveFogApplication.obj : error LNK2019: 无法解析的外部符号 "public: static class cv::MatExpr __cdecl cv::Mat::zeros(int,int,int)" (?zeros@Mat@cv@@SA?AVMatExpr@2@HHH@Z)，函数 _main 中引用了该符号
+operationRemoveFogApplication.obj : error LNK2019: 无法解析的外部符号 "public: __thiscall cv::Mat::Mat(class cv::Mat &&)" (??0Mat@cv@@QAE@$$QAV01@@Z)，函数 "public: __thiscall cv::MatExpr::operator class cv::Mat(void)const " (??BMatExpr@cv@@QBE?AVMat@1@XZ) 中引用了该符号
+operationRemoveFogApplication.obj : error LNK2019: 无法解析的外部符号 "int __cdecl cv::waitKey(int)" (?waitKey@cv@@YAHH@Z)，函数 _main 中引用了该符号
+operationRemoveFogApplication.obj : error LNK2019: 无法解析的外部符号 "void __cdecl cv::imshow(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class cv::debug_build_guard::_InputArray const &)" (?imshow@cv@@YAXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@ABV_InputArray@debug_build_guard@1@@Z)，函数 _main 中引用了该符号
+operationRemoveFogApplication.obj : error LNK2019: 无法解析的外部符号 "void __cdecl cv::circle(class cv::debug_build_guard::_InputOutputArray const &,class cv::Point_<int>,int,class cv::Scalar_<double> const &,int,int,int)" (?circle@cv@@YAXABV_InputOutputArray@debug_build_guard@1@V?$Point_@H@1@HABV?$Scalar_@N@1@HHH@Z)，函数 _main 中引用了该符号
+E:\c++\opencv\build\x64\vc16\lib\opencv_world4100d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+C:\Users\Lenovo\source\repos\operationRemoveFogApplication\Debug\operationRemoveFogApplication.exe : fatal error LNK1120: 7 个无法解析的外部命令
